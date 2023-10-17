@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="container">
+      <a href="https://pidatacenters.com/" class="logo" target="_blank">
+        <img src="static\images\logo.jpeg" alt="logo" width="60" height="60" />
+      </a>
+      <div class="welcome">
+        <h1 class="main-heading">Pi Chat</h1>
+        <div class="links">
+          <a href="{{url_for('login')}}" class="link1">Login Page</a><br />
+          <a href="{{url_for('register')}}" class="link2">Registeration Page</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
