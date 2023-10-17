@@ -17,6 +17,7 @@ import openai
 from langchain.embeddings.sentence_transformer import SentenceTransformerEmbeddings
 
 load_dotenv()
+# create .env and .env.example files to store API Keys securely.
 config = dotenv.dotenv_values(".env")
 openai.api_key = config['OPENAI_API_KEY']
 
