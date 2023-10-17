@@ -27,6 +27,7 @@ This project aims to demonstrate the capabilities of LangChain and OpenAI to cre
 
    - Obtain API keys and credentials for LangChain and OpenAI.
    - Configure the API endpoints and authentication details in the Flask app.
+   - Create .env and .env.example files to store API Keys securely.
 
 3. **Running the App:**
    - Start the Flask server using `python app.py`.
